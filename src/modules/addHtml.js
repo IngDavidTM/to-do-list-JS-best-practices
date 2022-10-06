@@ -46,7 +46,7 @@ const addHtml = () => {
       storage();
       addHtml();
     });
-    form.addEventListener('input', () => {
+    input.addEventListener('input', () => {
       mainArr[i].description = input.value;
       storage();
     });
